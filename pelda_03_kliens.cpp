@@ -19,8 +19,7 @@ int __cdecl main(int argc, char** argv)
   WSADATA wsaData;
   SOCKET ConnectSocket = INVALID_SOCKET;
   struct addrinfo* result = NULL,
-    * ptr = NULL,
-    hints;
+    * ptr = NULL;
 
   strcpy_s(sendbuf, "Teszt keres");
 
